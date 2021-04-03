@@ -19,5 +19,6 @@ SetDirectoryCaseSensitivity "." -recurse`
 SetDirectoryCaseSensitivity "." -recurse -disable`
 ```
 or you can run the [AddToContextMenu.bat](Windows/Directory%20Case%20Sensitivity/AddToContextMenu.bat) to add the script to your context menut (Right click on Directory).
+Administator permissions are not required for adding the context menu to current user, but it is required for system wide installation.
 
-*Note: Depending upon who created the directory and type of directory, administrator permissions might be required, thus script is elevated by default for context menu.*
+*Note: Depending upon who created the directory and type of directory, administrator permissions might be required for changing the case sensitivity settings; thus script is elevated by default for context menu.*
